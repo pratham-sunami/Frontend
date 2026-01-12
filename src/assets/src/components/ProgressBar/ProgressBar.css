@@ -1,0 +1,18 @@
+
+.progressbar{
+    position: relative;
+    height: 20px;
+    width: 300px;
+    overflow: hidden;
+    border: 2px solid gray;
+    border-radius: 5px;
+    /* background-color: red; */
+}
+
+.child{
+    position: absolute;
+    background-color: green;
+    height: 20px;
+    width: 300px;
+    transform: translateX(-10%);
+}

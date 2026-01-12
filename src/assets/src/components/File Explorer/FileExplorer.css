@@ -1,0 +1,20 @@
+  .folder-container {
+  font-family: sans-serif;
+}
+
+.folder-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 3px 0;
+}
+
+.folder-header span {
+  margin-left: 8px;
+}
+
+.folder-children {
+  margin-left: 20px;
+  border-left: 1px solid #ccc;
+  padding-left: 10px;
+}

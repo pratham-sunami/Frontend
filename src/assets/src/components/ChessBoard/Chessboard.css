@@ -1,0 +1,11 @@
+.chessBox {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+}
+
+.chessBoxWhite {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    gap: 4rem;
+    margin: 2px;
+    justify-content: center;
+}
+.accordian{
+/* display: flex; */
+position: relative;
+width: 90%;
+height:10%;
+background-color: beige;
+align-items: center;
+
+    .span{
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        right:5px;
+        cursor: pointer;
+    }
+}

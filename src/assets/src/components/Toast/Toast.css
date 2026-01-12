@@ -1,0 +1,63 @@
+.button-container {
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      /* centers vertically */
+  height: 100vh;            /* full screen height */
+  background-color: #f0f0f0;
+}
+
+.button {
+  color: black;
+  background-color: gray;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.success{
+  background-color: green;
+}
+.failed{
+  background-color: red;
+}
+.pending{
+  background-color: yellow;
+}
+.toast-container{
+  position: fixed;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;  
+}
+.toast{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap:0.5rem;
+  /* margin-right: 1rem; */
+  padding: 5px;
+  width: 20rem;
+  border-radius: 7px;
+  color:white;
+  position: relative;
+  animation: slide 1s 1;
+  
+  span{
+    position: absolute;
+    right:1rem;
+    cursor: pointer;
+  }
+}
+
+@keyframes slide {
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0%)
+  }
+}
