@@ -42,7 +42,7 @@ function App() {
   // const {comments , addComment , deleteComment } = useComments(CommentsData)
   return (
     <>
-      {/* <Toast/> */}
+      <Toast/>
       {/* <StarRating/> */}
       {/* <Post/> */}
       {/* <OTP/> */}
